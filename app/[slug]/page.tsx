@@ -43,7 +43,7 @@ export default async function LetterPage({
             height={100}
             className="h-20 w-20 overflow-clip rounded-full"
           />
-          <p className="text-xl">
+          <p className="flex flex-col space-y-2 text-xl leading-relaxed">
             {documentToReactComponents(letter.fields.message)}
           </p>
         </div>
